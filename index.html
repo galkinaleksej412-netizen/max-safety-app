@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фиксация нарушений</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h3>Новое замечание</h3>
+        
+        <label>Категория:</label>
+        <select id="category">
+            <option value="ОТ">Охрана труда</option>
+            <option value="ПБ">Пром. безопасность</option>
+            <option value="ППБ">Пож. безопасность</option>
+        </select>
+
+        <label>Описание ситуации:</label>
+        <textarea id="description" placeholder="Например: Работник на высоте без каски..."></textarea>
+
+        <button id="send-btn">Сформировать замечание</button>
+    </div>
+
+    <!-- Подключаем SDK мессенджера для связи с ботом -->
+    <script src="https://max.ru"></script>
+    <script src="app.js"></script>
+</body>
