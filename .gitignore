@@ -1,0 +1,32 @@
+# Секретные ключи ИИ, настройки среды и токены бота MAX
+.env
+.env.local
+.env.*.local
+*.env
+
+# Логи и отчеты об ошибках сервера
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Папки зависимостей Python (виртуальное окружение)
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Папки зависимостей Node.js (если применимо)
+node_modules/
+dist/
+build/
+
+# Служебные файлы операционных систем и редакторов
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
